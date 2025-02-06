@@ -19,7 +19,6 @@
 }
 
 body{
-    /* height:50vh; */
     box-sizing: border-box;
     background-color: var(--azul-atrius);
     color:#F6F6F6;
@@ -55,8 +54,8 @@ gap:25px;
     font-weight: 400px;
     color: var(--amarelo-atrius);
     text-decoration: none;
-    pointer-events: none; /* Desativa o clique */
-    cursor: default; /* Muda o cursor */
+    pointer-events: none;
+    cursor: default; 
 }
 
 .apresentacao {
@@ -101,7 +100,6 @@ gap:25px;
 }
 
 .apresentacao__links__link {
-    /* background-color: #ffcc46; */
     display:flex;
     justify-content: center;
     gap:22px;

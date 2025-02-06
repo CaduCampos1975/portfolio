@@ -16,6 +16,10 @@ body{
     color: #ffcc46;
 }
 
+.destaqueTitulo:hover {
+    color: #fbe09a;
+}
+
 .apresentacao {
     margin: 5% 22%;
     display:flex;
@@ -43,22 +47,35 @@ body{
 
 .apresentacao__links {
     display:flex;
+    align-items: left;
+    flex-direction: column;
     justify-content: flex-start;
     gap:10px;
-  }
+}
 
 .apresentacao__links__link {
-    background-color: #ffcc46;
-    width: 200px;
+    /* background-color: #ffcc46; */
+    display:flex;
+    justify-content: center;
+    gap:16px;
+    width: 250px;
+    border: 2px solid #ffcc46;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 18px;
     font-family: "Poppins";
     font-weight: 600;
     padding: 15px 10px;
     text-decoration:none;
-    color:#031420
-  }
+    color:#f6f6f6;
+}
+
+
+.apresentacao__links__link:hover {
+    border-color: #fbe09a;
+    background-color: #082940;
+    cursor: pointer;
+}
 
 .apresentacao__imagem {
     border-radius: 50%;
@@ -66,4 +83,10 @@ body{
     border-color: #ffcc46;
     margin-left: 50px;
 
+}
+
+.apresentacao__links_subtitulo{
+    font-family:"poppins", "sans-serif";
+    font-weight: 600;
+    font-size: 16;
 }

@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
 
+:root {
+
+    --branco-atrius: #f6f6f6;
+    --azul-atrius: #031420;
+    --azul-hover-atrius: #082940;
+    --amarelo-atrius: #ffcc46;
+    --amarelo-hover-atrius: #fbe09a;
+
+}
+
 * {
  margin:0;
  padding:0;
@@ -8,7 +18,7 @@
 body{
     /* height:50vh; */
     box-sizing: border-box;
-    background-color: #031420;
+    background-color: var(--azul-atrius);
     color:#F6F6F6;
 }
 
@@ -27,12 +37,12 @@ gap:25px;
     font-family: "poppins", "sans-serif";
     font-size: 16px;
     font-weight: 400px;
-    color:#F6F6F6;
+    color:var(--branco-atrius);
     text-decoration: none;
 }
 
 .cabecalho__menu__links:hover{
-    color: #ffcc46;
+    color: var(--amarelo-atrius);
     cursor: pointer;
 }
 
@@ -40,14 +50,14 @@ gap:25px;
     font-family: "poppins", "sans-serif";
     font-size: 16px;
     font-weight: 400px;
-    color: #ffcc46;
+    color: var(--amarelo-atrius);
     text-decoration: none;
     pointer-events: none; /* Desativa o clique */
     cursor: default; /* Muda o cursor */
 }
 
 .apresentacao {
-    padding: 5.5% 18%;
+    padding: 5.6% 18%;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -67,11 +77,11 @@ gap:25px;
 }
 
 .destaqueTitulo {
-    color: #ffcc46;
+    color: var(--amarelo-atrius);
 }
 
 .destaqueTitulo:hover {
-    color: #fbe09a;
+    color: var(--amarelo-hover-atrius);
 }
 
 .apresentacao__conteudo__texto{
@@ -84,16 +94,16 @@ gap:25px;
     align-items: left;
     flex-direction: column;
     justify-content: flex-start;
-    gap:10px;
+    gap:12px;
 }
 
 .apresentacao__links__link {
     /* background-color: #ffcc46; */
     display:flex;
     justify-content: center;
-    gap:16px;
+    gap:22px;
     width: 250px;
-    border: 2px solid #ffcc46;
+    border: 2px solid var(--amarelo-atrius);
     text-align: center;
     border-radius: 8px;
     font-size: 18px;
@@ -101,20 +111,20 @@ gap:25px;
     font-weight: 600;
     padding: 15px 10px;
     text-decoration:none;
-    color:#f6f6f6;
+    color:var(--branco-atrius);
 }
 
 
 .apresentacao__links__link:hover {
-    border-color: #fbe09a;
-    background-color: #082940;
+    border-color: var(--amarelo-hover-atrius);
+    background-color: var(--azul-hover-atrius);
     cursor: pointer;
 }
 
 .apresentacao__imagem {
     border-radius: 50%;
     border: 5px solid;
-    border-color: #ffcc46;
+    border-color: var(--amarelo-atrius);
     margin-left: 50px;
 
 }
@@ -126,9 +136,9 @@ gap:25px;
 }
 
 .rodape{
-    color: #031420;
-    background-color:#ffcc46;
-    padding: 1%;
+    color: var(--azul-atrius);
+    background-color:var(--amarelo-atrius);
+    padding: 0.9rem;
     text-align: center;
     font-family: "Montserrat", "Sans-Serif";
     font-size: 16px;

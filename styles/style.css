@@ -12,12 +12,28 @@ body{
     color:#F6F6F6;
 }
 
-.destaqueTitulo {
-    color: #ffcc46;
+.cabecalho{
+    padding: 1% 10% 1% 18%;
 }
 
-.destaqueTitulo:hover {
-    color: #fbe09a;
+.cabecalho__menu {
+display:flex;
+justify-content: left;
+align-items: left;
+gap:25px;
+}
+
+.cabecalho__menu__links{
+    font-family: "poppins", "sans-serif";
+    font-size: 16px;
+    font-weight: 400px;
+    color:#F6F6F6;
+    text-decoration: none;
+}
+
+.cabecalho__menu__links:hover{
+    color: #ffcc46;
+    cursor: pointer;
 }
 
 .apresentacao {
@@ -38,6 +54,14 @@ body{
     font-size: 36px;
     font-family: "Poppins", serif;
     line-height: 1.2;
+}
+
+.destaqueTitulo {
+    color: #ffcc46;
+}
+
+.destaqueTitulo:hover {
+    color: #fbe09a;
 }
 
 .apresentacao__conteudo__texto{
@@ -99,27 +123,4 @@ body{
     font-family: "Montserrat", "Sans-Serif";
     font-size: 16px;
     font-weight: 600;
-}
-
-.cabecalho{
-    padding: 1%;
-}
-
-.cabecalho__menu {
-display:flex;
-justify-content: left;
-align-items: left;
-gap:15px;
-}
-
-.cabecalho__menu__links{
-    font-family: "poppins", "sans-serif";
-    font-size: 16px;
-    font-weight: 400px;
-    color:#F6F6F6;
-}
-
-.cabecalho__menu__links:hover{
-    color: #ffcc46;
-    cursor: pointer;
 }

@@ -36,6 +36,16 @@ gap:25px;
     cursor: pointer;
 }
 
+.cabecalho__menu__links__ativo {
+    font-family: "poppins", "sans-serif";
+    font-size: 16px;
+    font-weight: 400px;
+    color: #ffcc46;
+    text-decoration: none;
+    pointer-events: none; /* Desativa o clique */
+    cursor: default; /* Muda o cursor */
+}
+
 .apresentacao {
     padding: 5.5% 18%;
     display:flex;

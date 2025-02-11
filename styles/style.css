@@ -78,6 +78,13 @@ gap:25px;
     line-height: 2.4rem;
 }
 
+.apresentacao__conteudo__subtitulo {
+    font-size: 1.2rem;
+    font-family: var(--fonte-titulo);
+    color: var(--amarelo-atrius);
+    line-height: 2.4rem;
+}
+
 .destaqueTitulo {
     color: var(--amarelo-atrius);
 }
@@ -89,6 +96,13 @@ gap:25px;
 .apresentacao__conteudo__texto{
     font-size: 1rem;
     font-family: var(--fonte-texto);
+}
+
+.apresentacao__conteudo__lista {
+    font-size: 1rem;
+    font-family: var(--fonte-texto);
+    margin-left: 5%;
+    line-height: 1.4rem;
 }
 
 .apresentacao__links {
